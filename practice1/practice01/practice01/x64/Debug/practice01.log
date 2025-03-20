@@ -1,5 +1,0 @@
-﻿  main.cpp
-  practice01.cpp
-  Generating Code...
-practice01.obj : error LNK2005: main already defined in main.obj
-C:\Users\xavie\GitHub\cpsc2376-burl\practice1\practice01\x64\Debug\practice01.exe : fatal error LNK1169: one or more multiply defined symbols found
