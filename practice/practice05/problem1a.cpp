@@ -18,7 +18,8 @@ int main()
         {
             numbers.push_back(num);
         }
-        else {
+        else 
+        {
             cin.clear();  
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Enter an integer or 'exit' to stop." << endl;
