@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{58a52f23-7293-4fda-883c-b66551764ec0}</ProjectGuid>
-    <RootNamespace>practice06</RootNamespace>
+    <ProjectGuid>{fd15bb3b-bcde-40e6-a7ea-37ba9465259c}</ProjectGuid>
+    <RootNamespace>practice07</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Fraction.cpp" />
-    <ClCompile Include="MixedFraction.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fraction.h" />
-    <ClInclude Include="MixedFraction.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="employee.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="practice07.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="employee.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
