@@ -96,6 +96,5 @@ int main()
     {
         cout << "Error: " << e.what() << endl;
     }
-
     return 0;
 }
