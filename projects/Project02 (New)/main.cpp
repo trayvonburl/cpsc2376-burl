@@ -1,11 +1,11 @@
 #include <iostream>
 #include "game.h"
 
-int main() 
+int main()
 {
     Game game;  // Constructs new game
 
-    while (game.status() == ONGOING) 
+    while (game.status() == ONGOING)
     {
         std::cout << game;  // Prints board
         int col;
@@ -16,17 +16,17 @@ int main()
         game.play(col);  // Makes a move
 
         // Checks for game status
-        if (game.status() == PLAYER_1_WINS) 
+        if (game.status() == PLAYER_1_WINS)
         {
             std::cout << game;
             std::cout << "Player 1 (X) wins!" << std::endl;
         }
-        else if (game.status() == PLAYER_2_WINS) 
+        else if (game.status() == PLAYER_2_WINS)
         {
             std::cout << game;
             std::cout << "Player 2 (O) wins!" << std::endl;
         }
-        else if (game.status() == DRAW) 
+        else if (game.status() == DRAW)
         {
             std::cout << game;
             std::cout << "Draw!" << std::endl;

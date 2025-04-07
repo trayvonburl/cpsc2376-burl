@@ -6,7 +6,7 @@
 #include <vector>
 #include <iostream>
 
-enum Status 
+enum Status
 {
     ONGOING,
     PLAYER_1_WINS,
@@ -14,14 +14,14 @@ enum Status
     DRAW
 };
 
-enum Token 
+enum Token
 {
     EMPTY = ' ',
     PLAYER_1 = 'X',
     PLAYER_2 = 'O'
 };
 
-class Game 
+class Game
 {
 private:
     std::vector<std::vector<Token>> board;  // Vector representing the game board
