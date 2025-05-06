@@ -134,7 +134,7 @@
     <ClInclude Include="Game.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Screenshot 2025-05-05 223945.png" />
+    <Image Include="screenshot.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
