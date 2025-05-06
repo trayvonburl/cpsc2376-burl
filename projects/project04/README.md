@@ -16,7 +16,7 @@ All game logic is fully encapsulated in the `Game` class, which includes methods
 
 ## 🧪 Screenshot
 
-![Screenshot](![Screenshot 2025-05-05 223945])
+![Screenshot](screenshot.png)
 ## ✨ Extra Features
 
 - Keyboard and mouse input support
