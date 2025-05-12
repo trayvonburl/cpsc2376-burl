@@ -1,8 +1,8 @@
-Board Game Café Lending
+Board Game CafÃ© Lending
 
 Specification
 
-This program helps manage the lending system at a local board game café. The café owns multiple board games. Customers can check out games, and the system keeps track of which customer has which game and when it's due to be returned. The staff can also mark games as returned, which updates the available inventory.
+This program helps manage the lending system at a local board game cafÃ©. The cafÃ© owns multiple board games. Customers can check out games, and the system keeps track of which customer has which game and when it's due to be returned. The staff can also mark games as returned, which updates the available inventory.
 
 **Entities**: BoardGame, Customer, Loan  
 **Key Actions**: List all games, check out a game, return a game, view active loans
@@ -11,9 +11,9 @@ This program helps manage the lending system at a local board game café. The caf
 Design Classes
 
 Nouns 
-- **BoardGame** – title, totalCopies, availableCopies
-- **Customer** – name, contact info
-- **Loan** – game, customer, due date
+- **BoardGame** â€“ title, totalCopies, availableCopies
+- **Customer** â€“ name, contact info
+- **Loan** â€“ game, customer, due date
 
 Verbs 
 - Add game to inventory
